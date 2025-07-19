@@ -30,7 +30,7 @@ public class ConnectionDB {
     }
     
     public static Connection getConnection() throws SQLException{
-        return dataSource.getConnection();
+        return dataSource.getConnection(); //Devuelve Conexion
     }
     
     public static void closePool(){
